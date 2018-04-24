@@ -49,10 +49,13 @@ function destructivelyRemoveElementFromEndOfArray (array) {
   var dREEA = array;
   dREEA.pop();
   return dREEA;
+<<<<<<< HEAD
 }
 
 // Remove an element from the end of an array without modifying the original array
 function removeElementFromEndOfArray(array) {
   var rEEA = array.slice(0, array.length -1);
   return rEEA;
+=======
+>>>>>>> 40127239b08b267b034c54e90bb0d821907e2d6f
 }
